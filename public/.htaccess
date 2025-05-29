@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Si la requête n’est pas un fichier
+RewriteCond %{REQUEST_FILENAME} !-f
+# Si la requête n’est pas un dossier
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirige toutes les requêtes vers index.php
+RewriteRule ^ index.php [QSA,L]

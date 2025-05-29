@@ -1,0 +1,17 @@
+{
+    "name": "bbs8/gestion_budget",
+    "description": "gestion du budget",
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "MonProjet\\GestionBudget\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bouba",
+            "email": "boubacar.konate@outlook.fr"
+        }
+    ],
+    "require": {}
+}
